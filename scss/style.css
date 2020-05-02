@@ -162,7 +162,7 @@ header {
   font-family: "Roboto", sans-serif;
   font-size: 48px;
   font-weight: 900;
-  letter-spacing: -1;
+  letter-spacing: -1px;
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
