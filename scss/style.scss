@@ -26,7 +26,7 @@ header {
   padding-top: 28px;
   font-weight: 300;
 }
-.logo p::first-letter {
+.logo::first-letter {
   color: #1abc9c;
   font-weight: 900;
 }
@@ -91,13 +91,13 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgba(26, 188, 156, .65);
+  border: rgba(26, 188, 156, 0.65);
 }
 .slider__ctrl:hover{
   background-color: rgba(26, 188, 156, 1);
 }
 .slider__ctrl__left{  
   background-image: url(../images/slider/angle-left.svg);
-
 }
 .slider__ctrl__right{
   float: right;
@@ -111,23 +111,20 @@ header {
   transform: translate(-50%, -50%);
   h2{
     text-transform: uppercase;
-    font-family: 'Roboto' sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 60px;
     color: #ffffff;
     margin-bottom: 10px;
-  }
-  h2 span{
-    color: #ff7200;
+    width: max-content;
   }
   p{
-    font-family: 'Roboto' sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 24px;
     font-weight: 300;
     color: #ffffff;
     text-transform: uppercase;
   }
 }
-
 .products {
   background-color: rgb(233, 240, 253);
   h2 {
@@ -196,8 +193,7 @@ header {
   }
   .overlay__card{
     visibility: visible;
-  }
-  
+  }  
 }
 .overlay__card{
   position: absolute;
@@ -217,7 +213,7 @@ header {
   width: 50px;
   height: 50px;
   background-color: rgba(255, 255, 255, 0);
-  
+  margin-bottom: 8px;
   border: 2px solid white;
   background-position: center;
   background-repeat: no-repeat;
@@ -227,7 +223,6 @@ header {
 }
 .compare{
   background-image: url(../images/icons/mix.png);
-  margin: 8px;
 }
 .clock{
   background-image: url(../images/icons/clock.png);
@@ -244,6 +239,7 @@ header {
 }
 .icon__wrapp{
   display: inline-block;
+  text-align: center;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -269,7 +265,6 @@ footer{
 }
 .footer-link{
   text-decoration: none;
-  color: #46bfa9;
-  
+  color: #46bfa9;  
 }
 
