@@ -102,7 +102,7 @@ header {
   left: 50%;
   margin: 0 auto;
   position: absolute;
-  top: 44%;
+  top: calc(50% - 12px);
   transform: translate(-50%, -50%); }
   .slider__description h2 {
     text-transform: uppercase;
